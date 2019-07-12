@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+
+<head>
+  <title> CIPHER </title>
+  <script src="javascript.js"> </script>
+  <script src="keyboardcipher.js"> </script>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <style>
+    input[type=text] {
+      width: auto;
+      padding: 15px 20px;
+      padding-top: 40px;
+      padding-right: 20px;
+      padding-bottom: 50px;
+      padding-left: 50px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body  onload="hey()">
+  <h1> <%- name %> Tolu Cipher</h1>
+  <form>
+    <label for="fname">Enter Your Text</label>
+    <input type="text" id="fname" name="fname">
+    <p>
+      <button type="button" onload="" onblur="" onclick= "runCipher()">
+        Submit</button>
+    </p>
+    <p>
+      <select>
+        <option value="Caesar Cipher">Caesar Cipher</option>
+        <option value="Keyword Cipher">Keyboard Cipher</option>
+      </select>
+    </p>
+    <p>Encoded message: <div id="output"></div>
+    </p>
+    <label for="name">Encoded</label>
+    <input type="text" id="name" name="name" value="boy">
+  </form>
+  <div class="sidenav">
+    <a href="/index">home</a>
+    <a href="/email">mail</a>
+    <a href="/signup">sign-in/log-in</a>
+    </div>
+  </div>
+</body>
+
+</html>
