@@ -1,5 +1,8 @@
+head {
+  font-size: 10px
+}
 body {
-background-color: rgb(128, 87, 0);
+background-color: rgb(192, 188, 179);
 }
 * {box-sizing: border-box}
 

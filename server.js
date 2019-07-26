@@ -22,7 +22,7 @@ app.set('view engine', 'ejs');
 
 //routes
 app.get('/', function(request, response){
-    response.render("index", {name: "jerry"});
+    response.render("index", {name: "Tolu"});
 });
 
 app.get('/signup', function(request, response){
